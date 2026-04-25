@@ -2,6 +2,7 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["config:recommended"],
 	"timezone": "Europe/Berlin",
+	"rangeStrategy": "bump",
 	"commitBody": "Co-authored-by: Antoni Kępiński <22645979+xxczaki@users.noreply.github.com>",
 	"packageRules": [
 		{
