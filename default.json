@@ -3,6 +3,8 @@
 	"extends": ["config:recommended"],
 	"timezone": "Europe/Berlin",
 	"rangeStrategy": "bump",
+	"minimumReleaseAge": "24 hours",
+	"internalChecksFilter": "strict",
 	"commitBody": "Co-authored-by: Antoni Kępiński <22645979+xxczaki@users.noreply.github.com>",
 	"packageRules": [
 		{
